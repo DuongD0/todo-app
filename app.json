@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Todo App",
+    "slug": "todo-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "platforms": ["android"],
+    "splash": {
+      "backgroundColor": "#4285F4"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#4285F4"
+      },
+      "package": "com.todo.todoapp",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3940256099942544~3347511713"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-image-picker",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow Todo App to access your photos to upload images to your todos.",
+          "cameraPermission": "Allow Todo App to access your camera to take photos for your todos."
+        }
+      ]
+    ],
+    "extra": {
+      "environment": "Todo",
+      "targetPlatform": "android"
+    }
+  }
+}
+
