@@ -7,7 +7,7 @@
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/DuongD0/todo-app.git
    cd TodoApp
    ```
 
@@ -41,7 +41,6 @@
 ### Option 1: Expo Go (Quickest)
 1. Install **Expo Go** app on your phone:
    - [Android Play Store](https://play.google.com/store/apps/details?id=host.exp.exponent)
-   - [iOS App Store](https://apps.apple.com/app/expo-go/id982107779)
 2. Scan the QR code displayed in your terminal
 3. The app will open on your device
 
