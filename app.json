@@ -6,6 +6,7 @@
     "orientation": "portrait",
     "userInterfaceStyle": "automatic",
     "platforms": ["android"],
+    "scheme": "todo-app",
     "splash": {
       "backgroundColor": "#4285F4"
     },
